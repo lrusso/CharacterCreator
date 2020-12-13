@@ -3133,25 +3133,25 @@ function logOut () {
 window.maleBodyPositionFolder = 'body_front_swaying'
 window.femaleBodyPositionFolder = 'body_front_hand-on-hip'
 
-const femaleHead = fetch('/layer/female/head_front_default/layers.json')
+const femaleHead = fetch('./layer/female/head_front_default/layers.json')
 .then(function (res) {
   return res.json()
 })
 .catch(console.error)
 
-const femaleBody = fetch('/layer/female/' + window.femaleBodyPositionFolder + '/layers.json')
+const femaleBody = fetch('./layer/female/' + window.femaleBodyPositionFolder + '/layers.json')
 .then(function (res) {
   return res.json()
 })
 .catch(console.error)
 
-const maleHead = fetch('/layer/male/head_front_default/layers.json')
+const maleHead = fetch('./layer/male/head_front_default/layers.json')
 .then(function (res) {
   return res.json()
 })
 .catch(console.error)
 
-const maleBody = fetch('/layer/male/' + window.maleBodyPositionFolder + '/layers.json')
+const maleBody = fetch('./layer/male/' + window.maleBodyPositionFolder + '/layers.json')
 .then(function (res) {
   return res.json()
 })
