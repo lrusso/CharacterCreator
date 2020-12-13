@@ -1,5 +1,6 @@
 # Character Creator
-A frontend interface for creating characters in SVG.
+
+Character Creator in JavaScript.
 
 ## Web:
 
